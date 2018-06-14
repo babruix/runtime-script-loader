@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2016",
+    "lib": [
+      "es5",
+      "es6",
+      "dom"
+    ],
+    "outDir": "dist",
+    "rootDir": "src",
+    "inlineSourceMap": true,
+    "baseUrl": ".",
+    //    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "moduleResolution": "node",
+    //    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "traceResolution": false,
+    "listEmittedFiles": false,
+    "listFiles": false,
+    "pretty": true,
+    "paths": {
+      "*": [
+        "node_modules/*"
+      ]
+    }
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "interface-name" : [true, "never-prefix"]
+}
