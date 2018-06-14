@@ -1,5 +1,5 @@
 {
-  "name": "@netent/js-scripts-loader",
+  "name": "runtime-script-loader",
   "version": "1.0.0",
   "description": "",
   "main": "src/index.ts",
@@ -15,9 +15,8 @@
     "postcommit": "git update-index --again"
   },
   "author": {
-    "name": "NetEnt AB (publ)",
-    "email": "info@netent.com",
-    "url": "https://www.netent.com/"
+    "name": "Alexey Romanov",
+    "email": "romanalexey@gmail.com"
   },
   "license": "ISC",
   "devDependencies": {
